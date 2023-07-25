@@ -43,7 +43,7 @@ class winning_page extends StatelessWidget {
             ),
             TextButton(
               onPressed: () {
-                Navigator.popAndPushNamed(context, "same_route");
+                Navigator.pop(context);
               },
               child: Text(
                 '再玩一次',
